@@ -128,7 +128,12 @@
             </div>
           {%- when 'buttons' -%}
             <div
-              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+              class="
+                banner__buttons banner__buttons--direction-{{ block.settings.buttons_direction }}
+                {% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %}
+                banner__buttons--multiple
+                {% endif %}
+              "
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
@@ -429,6 +434,22 @@
       "name": "t:sections.image-banner.blocks.buttons.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "select",
+          "id": "buttons_direction",
+          "label": "t:sections.image-banner.blocks.buttons.settings.buttons_direction.label",
+          "options": [
+            {
+              "value": "row",
+              "label": "Row"
+            },
+            {
+              "value": "column",
+              "label": "Column"
+            }
+          ],
+          "default": "row"
+        },
         {
           "type": "text",
           "id": "button_label_1",
