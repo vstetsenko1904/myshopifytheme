@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store 123",
+            "text": "Welcome to our store",
             "link": ""
           }
         }
@@ -35,6 +35,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-1",
+        "enable_header_transparent": false,
         "menu_color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
