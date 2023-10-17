@@ -3,13 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -24,10 +17,10 @@
         }
       },
       "block_order": [
-        "heading",
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update2_1.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
