@@ -21,7 +21,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update2_1.webp",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
