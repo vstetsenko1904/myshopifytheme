@@ -33,6 +33,44 @@
         "show_text_below": false
       }
     },
+    "e0a5205a-fbb3-4c44-96d3-043c1b3e394d": {
+      "type": "collage",
+      "blocks": {
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-image-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-image-1",
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-product-1",
+        "template--21288072904997__e0a5205a-fbb3-4c44-96d3-043c1b3e394d-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -54,7 +92,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
@@ -64,6 +102,7 @@
   },
   "order": [
     "image_banner",
+    "e0a5205a-fbb3-4c44-96d3-043c1b3e394d",
     "featured_collection"
   ]
 }
