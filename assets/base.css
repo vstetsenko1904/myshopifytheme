@@ -2377,6 +2377,11 @@ product-info .loading-overlay:not(.hidden) ~ *,
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
+.header-wrapper.header-wrapper--transparent,
+.header-wrapper.header-wrapper--transparent .header {
+  background-color: transparent;
+}
+
 .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
@@ -2576,7 +2581,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
   width: 4.4rem;
   padding: 0;
 }
@@ -2809,6 +2813,8 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
   color: rgba(var(--color-foreground), 0.75);
 }
 
@@ -2840,8 +2846,8 @@ details[open] > .header__menu-item .icon-caret {
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .header__menu-item:hover .header__active-menu-item {

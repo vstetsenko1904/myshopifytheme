@@ -134,11 +134,12 @@
 }
 
 .card__content {
-  display: grid;
+  display: flex;
   grid-template-rows: minmax(0, 1fr) max-content minmax(0, 1fr);
   padding: 1rem;
   width: 100%;
   flex-grow: 1;
+  align-items: flex-end;
 }
 
 .card__content--auto-margins {
