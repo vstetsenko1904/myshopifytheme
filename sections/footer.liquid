@@ -44,7 +44,8 @@
   -%}
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social and has_social_icons == true
+    or section.settings.show_social
+    and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
@@ -81,6 +82,12 @@
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
+                  {%- when 'liquid' -%}
+                    <div class="footer-block custom-liquid">
+                      <h3 class="footer-block__heading">{{ block.settings.liquid_heading }}</h3>
+                      <div class="liquid-code">{{ block.settings.liquid_code }}</div>
+                      <div class="liquid-subtext">{{ block.settings.liquid_subtext }}</div>
+                    </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
@@ -333,8 +340,8 @@
           </localization-form>
         {%- endif -%}
       </div>
-      <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
+      {%- if section.settings.payment_enable -%}
+        <div class="footer__column footer__column--info">
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
@@ -345,15 +352,12 @@
               {%- endfor -%}
             </ul>
           </div>
-        {%- endif -%}
-      </div>
+        </div>
+      {%- endif -%}
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
-        <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+        <p class="copyright__content">{{ section.settings.footer_copyright }}</p>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -432,6 +436,29 @@
         {
           "type": "richtext",
           "id": "subtext",
+          "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
+          "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "liquid_heading",
+          "default": "Heading",
+          "label": "Heading"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid_code",
+          "label": "Liquid code"
+        },
+        {
+          "type": "richtext",
+          "id": "liquid_subtext",
           "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
         }
@@ -605,6 +632,11 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "richtext",
+      "id": "footer_copyright",
+      "label": "Footer copyright"
     }
   ],
   "default": {

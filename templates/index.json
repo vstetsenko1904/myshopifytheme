@@ -3,25 +3,31 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
-            "buttons_direction": "column",
-            "button_label_1": "Shop Dresses",
+            "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": "Shop Skirts",
-            "button_link_2": "shopify:\/\/collections\/all",
-            "button_style_secondary_2": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
+        "heading",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update2_1.webp",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -31,51 +37,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "f04ea991-c335-4329-bf68-9b09fe3b77ab": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21288072904997__f04ea991-c335-4329-bf68-9b09fe3b77ab-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update5.webp",
-            "title": "SUNSHINE SETS",
-            "text": "",
-            "link_label": "Shop Tops & Tees",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "template--21288072904997__f04ea991-c335-4329-bf68-9b09fe3b77ab-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS236.webp",
-            "title": "",
-            "text": "<p>SPRING STAPLES <\/p><p><strong>$99 PANTS & JEANS*<\/strong><\/p>",
-            "link_label": "Shop $99 Pants & Jeans*",
-            "link": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "template--21288072904997__f04ea991-c335-4329-bf68-9b09fe3b77ab-column-1",
-        "template--21288072904997__f04ea991-c335-4329-bf68-9b09fe3b77ab-column-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -92,7 +53,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -109,7 +70,6 @@
   },
   "order": [
     "image_banner",
-    "f04ea991-c335-4329-bf68-9b09fe3b77ab",
     "featured_collection"
   ]
 }

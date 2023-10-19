@@ -143,7 +143,7 @@
   endfor
 -%}
 
-<{%- if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<{%- if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if section.settings.enable_header_transparent %} header-wrapper--transparent{% endif %}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -296,7 +296,9 @@
         {%- endif -%}
       </div>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
-
+        <a href="#" class="header__icon pin">
+          {% render 'icon-pin' %}
+        </a>
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
@@ -318,6 +320,11 @@
             {% render block %}
         {%- endcase -%}
       {%- endfor -%}
+
+      
+      <a href="#swym-wishlist" class="header__icon swym-wishlist">
+        {% render 'icon-wishlist' %}
+      </a>
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
