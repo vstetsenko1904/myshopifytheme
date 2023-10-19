@@ -50,8 +50,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS236.webp",
-            "title": "SPRING STAPLES<strong>$99 PANTS & JEANS*<\/strong>",
-            "text": "",
+            "title": "",
+            "text": "<p>SPRING STAPLES <\/p><p><strong>$99 PANTS & JEANS*<\/strong><\/p>",
             "link_label": "Shop $99 Pants & Jeans*",
             "link": "shopify:\/\/collections"
           }
