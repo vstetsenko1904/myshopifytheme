@@ -4,6 +4,18 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "4fb02a53-022e-41d4-92fb-21d49edbf440": {
+          "type": "link_list",
+          "settings": {
+            "heading": "COMPANY",
+            "menu": "company"
+          }
+        }
+      },
+      "block_order": [
+        "4fb02a53-022e-41d4-92fb-21d49edbf440"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
