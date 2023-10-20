@@ -2,30 +2,22 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
+    "ae266d14-1bc3-4bdf-9573-35c8eba72979": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "FREE DELIVERY ON ORDERS OVER $150*",
-            "link": "#"
-          }
-        },
-        "24df1cf9-ede7-4cef-90b3-472e1e413f68": {
+        "sections--21288072249637__ae266d14-1bc3-4bdf-9573-35c8eba72979-announcement-1": {
           "type": "announcement",
           "settings": {
             "text": "FREE 30 DAYS RETURNS",
-            "link": "#"
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "24df1cf9-ede7-4cef-90b3-472e1e413f68"
+        "sections--21288072249637__ae266d14-1bc3-4bdf-9573-35c8eba72979-announcement-1"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -55,7 +47,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "ae266d14-1bc3-4bdf-9573-35c8eba72979",
     "header"
   ]
 }
