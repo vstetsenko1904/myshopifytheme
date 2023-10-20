@@ -89,10 +89,48 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "9d229431-f596-4b84-bc1f-ece8cc84f199": {
+      "type": "collections-tabs",
+      "blocks": {
+        "d9c3ab66-9b8c-40a6-a036-e3af625b6815": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "WOMEN'S NEW",
+            "collection": "women",
+            "viewall": true
+          }
+        },
+        "1142f724-42f3-4fe2-b828-48f3a935ca96": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "MEN'S NEW",
+            "collection": "men",
+            "viewall": true
+          }
+        }
+      },
+      "block_order": [
+        "d9c3ab66-9b8c-40a6-a036-e3af625b6815",
+        "1142f724-42f3-4fe2-b828-48f3a935ca96"
+      ],
+      "settings": {
+        "title": "",
+        "useslider": true,
+        "products_to_show": 17,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false
+      }
     }
   },
   "order": [
     "image_banner",
-    "8ecd9c7f-9240-433b-accc-c4c721f73c0f"
+    "8ecd9c7f-9240-433b-accc-c4c721f73c0f",
+    "9d229431-f596-4b84-bc1f-ece8cc84f199"
   ]
 }
