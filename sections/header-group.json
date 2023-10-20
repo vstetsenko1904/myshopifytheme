@@ -8,16 +8,24 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "FREE DELIVERY ON ORDERS OVER $150*",
             "link": ""
+          }
+        },
+        "24df1cf9-ede7-4cef-90b3-472e1e413f68": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE 30 DAYS RETURNS",
+            "link": "#"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "24df1cf9-ede7-4cef-90b3-472e1e413f68"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
