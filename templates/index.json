@@ -3,25 +3,31 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
-            "buttons_direction": "column",
-            "button_label_1": "Shop Dresses",
+            "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": "Shop Skirts",
-            "button_link_2": "shopify:\/\/collections",
-            "button_style_secondary_2": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
+        "heading",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update2_1.webp",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -33,104 +39,36 @@
         "show_text_below": false
       }
     },
-    "6491370e-8f67-48d3-88d8-b55c5c35362e": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update5.webp",
-            "card_info_text_color": "#ffffff",
-            "title": "SUNSHINE SETS",
-            "text": "",
-            "link_label": "Shop Tops & Tees",
-            "link": "shopify:\/\/collections\/women",
-            "link_label2": "Shop Accessories",
-            "link2": "shopify:\/\/collections\/women",
-            "overlapped_card_info": true
-          }
-        },
-        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS236.webp",
-            "card_info_text_color": "#ffffff",
-            "title": "",
-            "text": "<h3>SPRING STAPLES<br\/><strong>$99 PANTS & JEANS*<\/strong><\/h3>",
-            "link_label": "Shop $99 Pants & Jeans*",
-            "link": "shopify:\/\/collections\/men",
-            "link_label2": "Shop Shirts",
-            "link2": "shopify:\/\/collections\/men",
-            "overlapped_card_info": true
-          }
-        }
-      },
-      "block_order": [
-        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-1",
-        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-2"
-      ],
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "title": "",
-        "enable_fullwidth": true,
-        "heading_size": "h1",
-        "image_width": "full",
-        "custom_image_width": 100,
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "button_label2": "",
-        "button_link2": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
-    "c67710f2-01bd-4adb-bca2-5117608e19f6": {
-      "type": "collections-tabs",
-      "blocks": {
-        "bc5afc1b-46a6-4596-a7b8-8080647a13af": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "WOMEN'S NEW",
-            "collection": "women",
-            "viewall": false
-          }
-        },
-        "74740cf0-b558-438a-bc89-0ff352fa2b17": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "MEN'S NEW",
-            "collection": "men",
-            "viewall": false
-          }
-        }
-      },
-      "block_order": [
-        "bc5afc1b-46a6-4596-a7b8-8080647a13af",
-        "74740cf0-b558-438a-bc89-0ff352fa2b17"
-      ],
-      "settings": {
-        "title": "",
-        "useslider": true,
-        "products_to_show": 25,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "6491370e-8f67-48d3-88d8-b55c5c35362e",
-    "c67710f2-01bd-4adb-bca2-5117608e19f6"
+    "featured_collection"
   ]
 }

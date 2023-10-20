@@ -2,25 +2,25 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "ae266d14-1bc3-4bdf-9573-35c8eba72979": {
+    "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "sections--21288072249637__ae266d14-1bc3-4bdf-9573-35c8eba72979-announcement-1": {
+        "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE 30 DAYS RETURNS",
+            "text": "Welcome to our store",
             "link": ""
           }
         }
       },
       "block_order": [
-        "sections--21288072249637__ae266d14-1bc3-4bdf-9573-35c8eba72979-announcement-1"
+        "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "",
-        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -29,7 +29,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
@@ -47,7 +47,7 @@
     }
   },
   "order": [
-    "ae266d14-1bc3-4bdf-9573-35c8eba72979",
+    "announcement-bar",
     "header"
   ]
 }
