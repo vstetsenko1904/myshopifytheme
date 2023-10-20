@@ -11,10 +11,18 @@
             "heading": "COMPANY",
             "menu": "company"
           }
+        },
+        "b5f42bf1-766b-4943-99c3-815080a7ca14": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>CUSTOMER CARE<\/strong>",
+            "menu": "customer-care"
+          }
         }
       },
       "block_order": [
-        "4fb02a53-022e-41d4-92fb-21d49edbf440"
+        "4fb02a53-022e-41d4-92fb-21d49edbf440",
+        "b5f42bf1-766b-4943-99c3-815080a7ca14"
       ],
       "settings": {
         "color_scheme": "background-1",
