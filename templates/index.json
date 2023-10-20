@@ -100,10 +100,19 @@
             "collection": "women",
             "viewall": true
           }
+        },
+        "74740cf0-b558-438a-bc89-0ff352fa2b17": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "MEN'S NEW",
+            "collection": "men",
+            "viewall": false
+          }
         }
       },
       "block_order": [
-        "bc5afc1b-46a6-4596-a7b8-8080647a13af"
+        "bc5afc1b-46a6-4596-a7b8-8080647a13af",
+        "74740cf0-b558-438a-bc89-0ff352fa2b17"
       ],
       "settings": {
         "title": "",
