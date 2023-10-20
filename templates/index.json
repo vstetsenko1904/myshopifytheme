@@ -40,7 +40,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update5.webp",
-            "card_info_text_color": "#fff",
+            "card_info_text_color": "#ffffff",
             "title": "",
             "text": "<h2>SUNSHINE SETS<\/h2>",
             "link_label": "SHOP TOPS & TEES",
@@ -54,7 +54,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS236.webp",
-            "card_info_text_color": "#fff",
+            "card_info_text_color": "#ffffff",
             "title": "",
             "text": "<h2>SPRING STAPLES<br\/><strong>$99 PANTS & JEANS*<\/strong><\/h2>",
             "link_label": "SHOP $99 PANTS & JEENS*",
@@ -134,7 +134,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update7.jpg",
-            "card_info_text_color": "#fff",
+            "card_info_text_color": "#ffffff",
             "title": "",
             "text": "<h2>TONE IT BACK<\/h2>",
             "link_label": "SHOP TOPS & TEES",
@@ -148,7 +148,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update8.jpg",
-            "card_info_text_color": "#fff",
+            "card_info_text_color": "#ffffff",
             "title": "",
             "text": "<h2>A SUMMER LIKE NO OTHER<\/h2>",
             "link_label": "SHOP WOMEN",
@@ -162,7 +162,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update9.jpg",
-            "card_info_text_color": "#fff",
+            "card_info_text_color": "#ffffff",
             "title": "",
             "text": "<h2>FRESH IN<\/h2>",
             "link_label": "SHOP SHIRTS",
@@ -259,6 +259,67 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "0cbcb0d0-904f-432a-a8a9-2feb260e5c6e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p><\/p>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4204e38c-236f-4a83-b30f-c3000856ee35": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "MARCS PERKS",
+            "heading_size": "h1"
+          }
+        },
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Come for the style, stay for the benefits. Sign up today for 10% off your first purchase.*FIND OUT MORE",
+            "text_style": "body"
+          }
+        },
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "buttons_direction": "row",
+            "button_label_1": "Find Out More",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-heading-1",
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-text-1",
+        "template--21288072904997__4204e38c-236f-4a83-b30f-c3000856ee35-buttons-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MS_loyalty_DT1440x420_2.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -267,6 +328,8 @@
     "9d229431-f596-4b84-bc1f-ece8cc84f199",
     "a34beb7d-a3d3-4c72-9193-f26bd43c0ea7",
     "3fd78d51-9961-4d35-932b-f705c02da337",
-    "d03caadf-fc52-4866-b34e-503fbabaac32"
+    "d03caadf-fc52-4866-b34e-503fbabaac32",
+    "0cbcb0d0-904f-432a-a8a9-2feb260e5c6e",
+    "4204e38c-236f-4a83-b30f-c3000856ee35"
   ]
 }
