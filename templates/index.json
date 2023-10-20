@@ -98,7 +98,7 @@
           "settings": {
             "tab_title": "WOMEN'S NEW",
             "collection": "women",
-            "viewall": true
+            "viewall": false
           }
         },
         "1142f724-42f3-4fe2-b828-48f3a935ca96": {
@@ -106,7 +106,7 @@
           "settings": {
             "tab_title": "MEN'S NEW",
             "collection": "men",
-            "viewall": true
+            "viewall": false
           }
         }
       },
