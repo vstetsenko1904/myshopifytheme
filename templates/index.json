@@ -226,6 +226,39 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "d03caadf-fc52-4866-b34e-503fbabaac32": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21288072904997__d03caadf-fc52-4866-b34e-503fbabaac32-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "buttons_direction": "row",
+            "button_label_1": "EXPLORE THE COMPAIGN",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21288072904997__d03caadf-fc52-4866-b34e-503fbabaac32-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS234_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -233,6 +266,7 @@
     "8ecd9c7f-9240-433b-accc-c4c721f73c0f",
     "9d229431-f596-4b84-bc1f-ece8cc84f199",
     "a34beb7d-a3d3-4c72-9193-f26bd43c0ea7",
-    "3fd78d51-9961-4d35-932b-f705c02da337"
+    "3fd78d51-9961-4d35-932b-f705c02da337",
+    "d03caadf-fc52-4866-b34e-503fbabaac32"
   ]
 }
