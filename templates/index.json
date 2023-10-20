@@ -32,9 +32,67 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "6491370e-8f67-48d3-88d8-b55c5c35362e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update5.webp",
+            "card_info_text_color": "#ffffff",
+            "title": "SUNSHINE SETS",
+            "text": "",
+            "link_label": "Shop Tops & Tees",
+            "link": "shopify:\/\/collections\/women",
+            "link_label2": "Shop Accessories",
+            "link2": "shopify:\/\/collections\/women",
+            "overlapped_card_info": true
+          }
+        },
+        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/310_MS_WK10_Website_Homepage_HS236.webp",
+            "card_info_text_color": "#ffffff",
+            "title": "",
+            "text": "<h3>SPRING STAPLES<br\/><strong>$99 PANTS & JEANS*<\/strong><\/h3>",
+            "link_label": "Shop $99 Pants & Jeans*",
+            "link": "shopify:\/\/collections\/men",
+            "link_label2": "Shop Shirts",
+            "link2": "shopify:\/\/collections\/men",
+            "overlapped_card_info": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-1",
+        "template--21288072904997__6491370e-8f67-48d3-88d8-b55c5c35362e-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "enable_fullwidth": true,
+        "heading_size": "h1",
+        "image_width": "full",
+        "custom_image_width": 100,
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "button_label2": "",
+        "button_link2": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "6491370e-8f67-48d3-88d8-b55c5c35362e"
   ]
 }
