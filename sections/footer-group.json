@@ -2,6 +2,93 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "52d79380-f9e6-4a7d-a4e7-999f93707a3f": {
+      "type": "multicolumn",
+      "blocks": {
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainable-cropped.svg",
+            "card_info_text_color": "",
+            "title": "<strong>HS \/ 23 Campaign<\/strong>",
+            "text": "<p>In The Sun<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_label2": "",
+            "link2": "",
+            "overlapped_card_info": false
+          }
+        },
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/returns-cropped.svg",
+            "card_info_text_color": "",
+            "title": "<strong>Easy returns<\/strong>",
+            "text": "<p>Free 30 Days Returns<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_label2": "",
+            "link2": "",
+            "overlapped_card_info": false
+          }
+        },
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rewards.svg",
+            "card_info_text_color": "",
+            "title": "<strong>Rewards<\/strong>",
+            "text": "<p>Come For The Style, Stay For The Benefits<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_label2": "",
+            "link2": "",
+            "overlapped_card_info": false
+          }
+        },
+        "d1d7e267-558a-40ed-8e0f-669e31e07922": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping.svg",
+            "card_info_text_color": "",
+            "title": "<strong>Free shipping<\/strong>",
+            "text": "<p>Free Delivery On Orders Over $150<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_label2": "",
+            "link2": "",
+            "overlapped_card_info": false
+          }
+        }
+      },
+      "block_order": [
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-1",
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-2",
+        "sections--21288072315173__52d79380-f9e6-4a7d-a4e7-999f93707a3f-column-3",
+        "d1d7e267-558a-40ed-8e0f-669e31e07922"
+      ],
+      "settings": {
+        "title": "",
+        "enable_fullwidth": true,
+        "heading_size": "h1",
+        "image_width": "custom",
+        "custom_image_width": 40,
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "button_label2": "Button label 2",
+        "button_link2": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "89b22bd8-614f-44b2-b7b6-51b4cdc03e7b": {
       "type": "newsletter",
       "blocks": {
@@ -94,6 +181,7 @@
     }
   },
   "order": [
+    "52d79380-f9e6-4a7d-a4e7-999f93707a3f",
     "89b22bd8-614f-44b2-b7b6-51b4cdc03e7b",
     "footer"
   ]
