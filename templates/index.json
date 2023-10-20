@@ -13,12 +13,12 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "buttons_direction": "row",
-            "button_label_1": "Shop all",
+            "buttons_direction": "column",
+            "button_label_1": "Shop Dresses",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Shop Skirts",
+            "button_link_2": "shopify:\/\/collections",
             "button_style_secondary_2": false
           }
         }
@@ -28,6 +28,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8_MS_WK12_Homepage_Update2_1.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
