@@ -2197,6 +2197,14 @@ product-info .loading-overlay:not(.hidden) ~ *,
   width: 100%;
 }
 
+.announcement-bar-slider {
+  display: flex;
+}
+
+.announcement-bar-slider .slider-button .icon {
+  height: 0.6rem;
+}
+
 .announcement-bar-slider,
 .announcement-bar-slider .slider {
   width: 100%;
