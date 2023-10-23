@@ -330,7 +330,7 @@ slider-component.slider-component-full-width {
   color: rgb(var(--color-foreground));
 }
 
-.slider-buttons {
+.slider-component .slider-buttons {
   display: flex;
   align-items: center;
   position: absolute;
