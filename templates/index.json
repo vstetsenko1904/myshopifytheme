@@ -108,20 +108,11 @@
             "collection": "men",
             "viewall": false
           }
-        },
-        "2674f844-2523-4b38-a422-8ac1f04d2bf5": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "all",
-            "collection": "women",
-            "viewall": true
-          }
         }
       },
       "block_order": [
         "d9c3ab66-9b8c-40a6-a036-e3af625b6815",
-        "1142f724-42f3-4fe2-b828-48f3a935ca96",
-        "2674f844-2523-4b38-a422-8ac1f04d2bf5"
+        "1142f724-42f3-4fe2-b828-48f3a935ca96"
       ],
       "settings": {
         "title": "",
