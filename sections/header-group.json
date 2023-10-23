@@ -11,10 +11,18 @@
             "text": "FREE DELIVERY ON ORDERS OVER $150*",
             "link": ""
           }
+        },
+        "17cc621d-5a73-45a0-9bdc-0ace5c096453": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE 30 DAYS RETURNS",
+            "link": "shopify:\/\/collections"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "17cc621d-5a73-45a0-9bdc-0ace5c096453"
       ],
       "settings": {
         "color_scheme": "accent-1",
