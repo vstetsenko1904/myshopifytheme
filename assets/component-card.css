@@ -118,6 +118,10 @@
   float: right;
 }
 
+.card__variants button {
+  cursor: pointer;
+}
+
 .swym-button {
   background: none;
   border: none;
